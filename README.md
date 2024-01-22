@@ -1,2 +1,11 @@
-# Employee-Attrition-Dashboard
-React Dashboard for Employee Attrition rate using various graphs and maps via d3.js.
+## React-D3-Dashboard
+
+This is a template project to build a dashboard with React + D3.
+
+## Report
+
+For an overview of the project please check the Report pdf file.
+
+## A demo of the Project
+
+Click on the youtube link [here](https://www.youtube.com/watch?v=RshrLB9090o) for a demo of the project.
