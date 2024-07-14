@@ -27,6 +27,7 @@ const ChloroplethMaps = (props) => {
       draw(json, props.data);
     });
     }
+    // eslint-disable-next-line
   }, [props.data]);
 
   const clearBoard = ()=>{

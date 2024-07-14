@@ -171,6 +171,7 @@ function App() {
       let geoData = getGeoMapData(employee_data);
       setGeoMapData(geoData);
     });
+    // eslint-disable-next-line
   }, [resetFlag]);
 
   const getJsonData = (employees_data) => {
