@@ -1,0 +1,26 @@
+.x-scatter line,
+.x-scatter text,
+.x-scatter path {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.y-scatter line,
+.y-scatter text,
+.y-scatter path {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.non_brushed {
+    fill: #a444ff;
+    opacity: 0.5;
+}
+
+.brushed {
+    fill: #ff3399;
+    stroke: #8e1b54;
+    opacity: 1.0;
+  }

@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+#heading {
+  /*display: flex;*/
+  font-family: Optima, sans-serif;
+  /*display: flex;*/
+  width: 100vw;
+  padding: 1px;
+  /*font-weight: bold;*/
+  text-align: center;
+  color: #4f4f4f;
+  background-color: #f1f1f1;
+  font-size: 10px;
+  border: #595757;
+  text-shadow: 2px 0 3px rgb(255, 255, 255);
+  /*background: linear-gradient(0.35turn, #266891, #b7adce, rgb(150, 72, 213)););*/
+}
+
+#reset{
+    /*text-align: center;*/
+    /* display: block; */
+    /*margin: 20px auto;*/
+    background-color: #595757;
+    /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    padding: 5px 24px;
+    /*font-family: system-ui, sans-serif;*/
+    /*font-weight: bold;*/
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#box1 {
+  /*background: linear-gradient(#35353a, #0e0d0d);*/
+  /*border-style: solid;*/
+  /*padding:20px;*/
+  height: 308px;
+  width: 450px;
+
+  border-width: 7px;
+  border-color:  #b0b0b0 ;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  border-style: solid;
+  /*margin: auto;*/
+  /*margin-top: 3%;*/
+  /*border: 10px double #4f4f4f;*/
+  /*background: linear-gradient(#35353a, #0e0d0d);*/
+  background-clip: padding-box;
+  /*padding: 20px;*/
+}
+
+#box2 {
+  /*background: linear-gradient(#35353a, #0e0d0d);*/
+  /*border-style: solid;*/
+  /*padding:20px;*/
+  height: 308px;
+  width: 350px;
+
+  border-width: 7px;
+  border-color:  #b0b0b0 ;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  border-style: solid;
+  /*margin: auto;*/
+  /*margin-top: 3%;*/
+  /*border: 10px double #4f4f4f;*/
+  /*background: linear-gradient(#35353a, #0e0d0d);*/
+  background-clip: padding-box;
+  /*padding: 20px;*/
+}
+
+#box3 {
+  /*background: linear-gradient(#35353a, #0e0d0d);*/
+  /*border-style: solid;*/
+  /*padding:20px;*/
+  height: 308px;
+  width: 450px;
+
+  border-width: 7px;
+  border-color:  #b0b0b0 ;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  border-style: solid;
+  /*margin: auto;*/
+  /*margin-top: 3%;*/
+  /*border: 10px double #4f4f4f;*/
+  /*background: linear-gradient(#35353a, #0e0d0d);*/
+  background-clip: padding-box;
+  /*padding: 20px;*/
+}
+
+#pie-charts {
+  /*background: linear-gradient(#35353a, #0e0d0d);*/
+  /*border-style: solid;*/
+  /*padding:20px;*/
+  display: block;
+  height: 308px;
+  width: 190px;
+
+  border-width: 7px;
+  border-color:  #b0b0b0 ;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  border-style: solid;
+  /*margin: auto;*/
+  /*margin-top: 3%;*/
+  /*border: 10px double #4f4f4f;*/
+  /*background: linear-gradient(#35353a, #0e0d0d);*/
+  background-clip: padding-box;
+  /*padding: 20px;*/
+}
+
+#box4 {
+  /*border-radius: 7px;*/
+    /*border-width: thick;*/
+    width: 500px;
+    height: 395px;
+    /*border: 10px double #4f4f4f;*/
+    /*background-color: #343434;*/
+    /*background: linear-gradient(#35353a, #0e0d0d);*/
+    border-width: 7px;
+    border-color:  #b0b0b0 ;
+    border-radius: 30px;
+    background-color: #f1f1f1;
+    border-style: solid;
+    background-clip: padding-box;
+    padding: 5px;
+}
+
+#box5 {
+  display: flex;
+  width: 350px;
+    height: 395px;
+    /*border: 10px double #4f4f4f;*/
+    /*background-color: #343434;*/
+    /*background: linear-gradient(#35353a, #0e0d0d);*/
+    border-width: 7px;
+    border-color:  #b0b0b0 ;
+    border-radius: 30px;
+    background-color: #f1f1f1;
+    border-style: solid;
+    background-clip: padding-box;
+    padding: 5px;
+}
+
+#box6 {
+  /*border-radius: 7px;*/
+    /*border-width: thick;*/
+    width: 520px;
+    height: 395px;
+    /*border: 10px double #4f4f4f;*/
+    /*background-color: #343434;*/
+    /*background: linear-gradient(#35353a, #0e0d0d);*/
+    border-width: 7px;
+    border-color:  #b0b0b0 ;
+    border-radius: 30px;
+    background-color: #f1f1f1;
+    border-style: solid;
+    background-clip: padding-box;
+    padding: 5px;
+}
+
+#pie1 {
+  display: flex;
+}
+
+#pie2 {
+  display: flex;
+}
+
+#section1 {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  background-color: #ffffff
+}
+#section2 {
+  height: 420px;
+  display: flex;
+  background-color: #ffffff
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: #f1f1f1;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}

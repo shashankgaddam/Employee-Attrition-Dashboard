@@ -1,14 +1,24 @@
 {
-  "name": "react-d3-dashboard",
+  "name": "final_project",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8000/",
   "dependencies": {
-    "antd": "^3.23.3",
-    "d3": "4.13.0",
-    "lodash": "^4.17.15",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.4.5",
+    "axios": "^1.3.6",
+    "d3": "^6.5.0",
+    "d3-tip": "^0.9.1",
+    "leaflet": "^1.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "3.1.1"
+    "react-leaflet": "^4.2.1",
+    "react-scripts": "5.0.1",
+    "react-simple-maps": "2.1.2",
+    "web-vitals": "^2.1.4",
+    "recharts": "2.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +27,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
