@@ -9,6 +9,7 @@ const ScatterPlot = (props)=> {
         if (props.data) {
             draw(props.data)
         }
+        // eslint-disable-next-line
     }, [props.data])
 
     const clearBoard = ()=>{
@@ -36,8 +37,6 @@ svg.append("text")
     .attr("font-family", "Gill Sans")
     .attr("font-size", "20px")
     .text("Age vs Salary")
-
-var n = data.length;
 
 var x = d3.scaleLinear()
     .domain([800, 20000])

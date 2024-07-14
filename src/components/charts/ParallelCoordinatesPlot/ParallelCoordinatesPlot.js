@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect } from "react";
 import * as d3 from "d3";
-import axios from "axios";
 import "./ParallelCoordinatesPlot.css";
 
 const ParallelCoordinatesPlot = (props) => {
@@ -9,6 +8,7 @@ const ParallelCoordinatesPlot = (props) => {
     if (props.data) {
       draw(props.data);
     }
+    // eslint-disable-next-line
   }, [props.data]);
 
   const clearBoard = ()=>{
@@ -124,6 +124,7 @@ const ParallelCoordinatesPlot = (props) => {
             );
           }
         }
+        return null
       }))
     );
 

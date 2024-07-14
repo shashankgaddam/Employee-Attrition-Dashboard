@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Layout, Menu } from "antd";
 import "./App.css";
 import * as d3 from "d3";
 import BarChart from "./components/charts/BarChart/BarChart";
@@ -11,15 +10,12 @@ import TreeMap from "./components/charts/TreeMap/TreeMap";
 import StackedAreaChart from "./components/charts/StackedAreaChart/StackedAreaChart";
 import ScatterPlot from "./components/charts/ScatterPlot/ScatterPlot";
 
-const { Header, Sider, Content, Footer } = Layout;
-
 function App() {
-  const [state, setState] = useState(0);
   const tooltipRef = useRef();
   const [stateStore, setStateStore] = useState({
     State: [],
   });
-  const [dataState, setDataState] = useState();
+  // const [dataState, setDataState] = useState();
   const [globalData, setGlobalData] = useState();
   const [resetFlag, setResetFalg] = useState(false);
   const [geoMapData, setGeoMapData] = useState();
@@ -30,8 +26,6 @@ function App() {
   const [attritionPieChartData, setAttritionPieChartData] = useState();
   const [areaChartData, setAreaChartData] = useState();
   const [scatterPlotData, setScatterPlotData] = useState();
-  const [currentVariable, setCurrentVariable] = useState("");
-  const [scatterVariables, setScatterVariables] = useState();
   let employee_data = [];
   
   useEffect(() => {
@@ -176,7 +170,6 @@ function App() {
       // Set the Chloropleth Map Data
       let geoData = getGeoMapData(employee_data);
       setGeoMapData(geoData);
-      setDataState(data);
     });
   }, [resetFlag]);
 

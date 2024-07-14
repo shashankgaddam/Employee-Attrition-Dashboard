@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect } from "react";
 import * as d3 from "d3";
 
 const TreeMap = (props) => {
@@ -6,6 +6,7 @@ const TreeMap = (props) => {
     if (props.data) {
       draw(props.data);
     }
+    // eslint-disable-next-line
   }, [props.data]);
 
   const clearBoard = () => {

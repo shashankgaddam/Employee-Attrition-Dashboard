@@ -4,9 +4,7 @@ import {
   Bar,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
-  Legend,
   Label
 } from "recharts";
 

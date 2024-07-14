@@ -1,8 +1,6 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import * as d3 from "d3";
 import './PieChartGender.css';
-import * as d3Collection from 'd3-collection';
-import d3tip from "d3-tip";
 
 
 const PieChartGender = (props)=> {
@@ -10,6 +8,7 @@ const PieChartGender = (props)=> {
         if (props.data) {
             draw(props.data)
         }
+        // eslint-disable-next-line
     }, [props.data])
 
     const clearBoard = ()=>{
